@@ -6,4 +6,16 @@ UnagiToolsは、株式会社うなぎテックが開発したMayaのツール集
 scripts/UT_DistortionVisualization.py　　3Dモデルの歪みを視覚化するツール
 
 ## インストール方法
+ドキュメント
+  -Maya 
+    -scripts
+     -UT_DistortionVisualization.py
 
+の中に入れてMayaを再起動
+
+その後
+
+import UT_DistortionVisualization as ut
+ut.UT_create_ui()
+
+を実行
