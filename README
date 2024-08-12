@@ -1,37 +1,9 @@
 # UnagiTools
-UnagiToolsは、株式会社うなぎテックが開発したMayaのユーティリティツール集になります。
+UnagiToolsは、株式会社うなぎテックが開発したMayaのツール集になります。
 
+公開されているツール
 
-## 特徴
-- 3Dモデルの歪みを視覚化するツール
-- 使いやすいコマンドラインインターフェース
-- 複数のファイル形式に対応
+scripts/UT_DistortionVisualization.py　　3Dモデルの歪みを視覚化するツール
 
 ## インストール方法
-リポジトリをクローンします:
-```bash
-git clone https://github.com/Unagi-Tech/UnagiTools.git
 
-bash
-コードをコピーする
-git clone https://github.com/Unagi-Tech/UnagiTools.git
-プロジェクトディレクトリに移動し、依存関係をインストールします:
-
-bash
-コードをコピーする
-cd UnagiTools
-pip install -r requirements.txt
-使用方法
-3Dモデルの歪みを視覚化するには、以下のコマンドを実行します:
-
-bash
-コードをコピーする
-python UT_DistortionVisualization.py --input model.obj --output result.png
-貢献
-プロジェクトへの貢献を歓迎します！貢献方法については、CONTRIBUTING.mdをご覧ください。コードの規範やプルリクエストの提出手順について記載しています。
-
-ライセンス
-このプロジェクトはMITライセンスの下で提供されています。詳細については、LICENSEファイルを参照してください。
-
-連絡先
-質問やサポートが必要な場合は、support@unagi-tech.comまでご連絡ください。
