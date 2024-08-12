@@ -1,16 +1,33 @@
-# UnagiTools
-UnagiTools is an open-source toolset developed by Unagi Tech for [describe main functionality here]. It aims to [describe purpose and goals here].
+UnagiTools
+UnagiToolsは、うなぎテックが開発したユーティリティツール集です。開発作業を簡略化し、さまざまなタスクを効率的に行えるように設計されています。
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+特徴
+3Dモデルの歪みを視覚化するツール
+使いやすいコマンドラインインターフェース
+複数のファイル形式に対応
+インストール方法
+リポジトリをクローンします:
 
-## Installation
-[Provide instructions for installation]
+bash
+コードをコピーする
+git clone https://github.com/Unagi-Tech/UnagiTools.git
+プロジェクトディレクトリに移動し、依存関係をインストールします:
 
-## Usage
-[Provide instructions for using the tool]
+bash
+コードをコピーする
+cd UnagiTools
+pip install -r requirements.txt
+使用方法
+3Dモデルの歪みを視覚化するには、以下のコマンドを実行します:
 
-## Contribution
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+bash
+コードをコピーする
+python UT_DistortionVisualization.py --input model.obj --output result.png
+貢献
+プロジェクトへの貢献を歓迎します！貢献方法については、CONTRIBUTING.mdをご覧ください。コードの規範やプルリクエストの提出手順について記載しています。
+
+ライセンス
+このプロジェクトはMITライセンスの下で提供されています。詳細については、LICENSEファイルを参照してください。
+
+連絡先
+質問やサポートが必要な場合は、support@unagi-tech.comまでご連絡ください。
